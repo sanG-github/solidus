@@ -591,14 +591,16 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.7)
     stripe (8.7.0)
-    tailwindcss-rails (3.3.2)
+    tailwindcss-rails (4.2.3)
       railties (>= 7.0.0)
-      tailwindcss-ruby (~> 3.0)
-    tailwindcss-ruby (3.4.17-aarch64-linux)
-    tailwindcss-ruby (3.4.17-arm-linux)
-    tailwindcss-ruby (3.4.17-arm64-darwin)
-    tailwindcss-ruby (3.4.17-x86_64-darwin)
-    tailwindcss-ruby (3.4.17-x86_64-linux)
+      tailwindcss-ruby (~> 4.0)
+    tailwindcss-ruby (4.1.7)
+    tailwindcss-ruby (4.1.7-aarch64-linux-gnu)
+    tailwindcss-ruby (4.1.7-aarch64-linux-musl)
+    tailwindcss-ruby (4.1.7-arm64-darwin)
+    tailwindcss-ruby (4.1.7-x86_64-darwin)
+    tailwindcss-ruby (4.1.7-x86_64-linux-gnu)
+    tailwindcss-ruby (4.1.7-x86_64-linux-musl)
     terrapin (1.1.0)
       climate_control
     thor (1.3.2)
@@ -688,7 +690,7 @@ DEPENDENCIES
   solidus_support (>= 0.12.0)
   sqlite3 (>= 2.1)
   stimulus-rails
-  tailwindcss-rails (~> 3.0)
+  tailwindcss-rails (~> 4.2)
   thruster
   turbo-rails
   tzinfo-data
