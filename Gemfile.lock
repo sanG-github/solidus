@@ -404,7 +404,7 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.3)
-    rubocop (1.75.7)
+    rubocop (1.75.8)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -672,7 +672,7 @@ DEPENDENCIES
   responders
   rspec-activemodel-mocks (~> 1.1.0)
   rspec-rails
-  rubocop (~> 1.0)
+  rubocop (~> 1.75)
   rubocop-performance (~> 1.5)
   rubocop-rails (~> 2.3)
   rubocop-rails-omakase
