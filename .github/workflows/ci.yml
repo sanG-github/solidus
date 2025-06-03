@@ -10,10 +10,13 @@ jobs:
   scan_js:
     runs-on: self-hosted
     container:
-      image: ruby:3.3.4
+      image: ruby:3.3.4-slim
       options: --user root --entrypoint ""
 
     steps:
+      - name: Install git
+        run: apt-get update && apt-get install -y git
+
       - name: Checkout code
         uses: actions/checkout@v1
 
